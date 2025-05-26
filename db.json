@@ -1,0 +1,82 @@
+{
+  "usuario": [
+    {
+      "nombre": "Jose1",
+      "contraseña": "admin",
+      "rol": "admin",
+      "id": "2"
+    },
+    {
+      "nombre": "Algo123",
+      "contraseña": "algo",
+      "rol": "admin",
+      "id": "6eab"
+    },
+    {
+      "nombre": "Pedrope",
+      "contraseña": "1234",
+      "rol": "cliente",
+      "id": "7ce9"
+    },
+    {
+      "id": "b535",
+      "nombre": "Manuel",
+      "rol": "cliente",
+      "contraseña": "123456789"
+    },
+    {
+      "nombre": "Algo",
+      "contraseña": "algo123",
+      "rol": "cliente",
+      "id": "1"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "soda 1 Litro",
+      "precio": "1500",
+      "stock": 15
+    },
+    {
+      "id": "2",
+      "nombre": "Cajon Soda",
+      "precio": "7000",
+      "stock": 15
+    },
+    {
+      "id": "3",
+      "nombre": "Bidon de agua 10 L",
+      "precio": "4000",
+      "stock": 15
+    },
+    {
+      "id": "4",
+      "nombre": "Bidon de agua 20 L",
+      "precio": "7500",
+      "stock": 15
+    }
+  ],
+  "ventas": [
+    {
+      "id": "a766",
+      "idUsuario": 1,
+      "total": 8000
+    },
+    {
+      "id": "cb08",
+      "idUsuario": 1,
+      "total": 7500
+    },
+    {
+      "id": "0158",
+      "idUsuario": 1,
+      "total": 3000
+    },
+    {
+      "id": "6edc",
+      "idUsuario": "7ce9",
+      "total": 21000
+    }
+  ]
+}
